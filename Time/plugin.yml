@@ -1,0 +1,23 @@
+name: Time
+author: RaMiiOffiCial
+version: 1.0.0
+api: 3.0.0
+description: One Plugin For Set Day And Night Servers
+main : time\Main
+
+
+commands:
+  day:
+    description: By §1RaMiiOffiCial
+    permission: day.use
+   night:
+    description: By §1RaMiiOffiCial
+    permission: night.use
+
+
+permissions:
+  day.use:
+    default: op
+
+  night.use:
+      default: op
